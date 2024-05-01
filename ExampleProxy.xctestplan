@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "26F003C8-CF39-43A6-95EE-7C4F21D01FD2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ExampleProxy.xcodeproj",
+        "identifier" : "B13E85842BE1267C00B592E5",
+        "name" : "ExampleProxyTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ExampleProxy.xcodeproj",
+        "identifier" : "B13E858E2BE1267C00B592E5",
+        "name" : "ExampleProxyUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/ios-training",
+        "identifier" : "YumemiWeatherTests",
+        "name" : "YumemiWeatherTests"
+      }
+    }
+  ],
+  "version" : 1
+}
